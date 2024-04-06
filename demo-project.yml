@@ -4,7 +4,7 @@ spring:
       server:
         git:
            # 远程库地址Url 在仓库处copy即可
-          uri: https://gitee.com/leileispace/config-repository.git
+          uri: https://github.com/wand886/1.git
           username: admin
           password: admin
           force-pull: true
