@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+           # 远程库地址Url 在仓库处copy即可
+          uri: https://gitee.com/leileispace/config-repository.git
+          username: admin
+          password: admin
+          force-pull: true
+          # 指定额外搜索的路径 例如 你根据业务不同 对每个模块还额外建立了文件夹储存时。则用此配置，添加搜索文件夹的范围
+          search-paths: product
+
+          
